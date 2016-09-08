@@ -1,0 +1,62 @@
+<Manager id="1">
+  <albums id="2">
+    <Album id="3">
+      <name>yellow sub</name>
+      <songs id="4"/>
+      <releaseDate id="5">2015-09-15</releaseDate>
+      <artists id="6"/>
+      <genre>Rock</genre>
+    </Album>
+    <Album id="7">
+      <name>yellow sub2</name>
+      <songs id="8"/>
+      <releaseDate reference="5"/>
+      <artists id="9"/>
+      <genre>Rock</genre>
+    </Album>
+  </albums>
+  <artists id="10">
+    <Artist id="11">
+      <name>aaa</name>
+      <songs id="12"/>
+    </Artist>
+    <Artist id="13">
+      <name>bbb</name>
+      <songs id="14"/>
+    </Artist>
+  </artists>
+  <playlists id="15">
+    <Playlist id="16">
+      <name>myplaylist1</name>
+      <songs id="17"/>
+    </Playlist>
+    <Playlist id="18">
+      <name>myplaylist2</name>
+      <songs id="19"/>
+    </Playlist>
+  </playlists>
+  <locations id="20">
+    <Location id="21">
+      <name>bedroom</name>
+      <volume>50</volume>
+      <isMuted>false</isMuted>
+      <songs id="22"/>
+    </Location>
+  </locations>
+  <songs id="23">
+    <Song id="24">
+      <name>songtest</name>
+      <duration id="25">00:03:00</duration>
+    </Song>
+  </songs>
+  <groupLocations id="26">
+    <GroupLocation id="27">
+      <name>GroupLocation0</name>
+      <locations id="28"/>
+    </GroupLocation>
+    <GroupLocation id="29">
+      <name></name>
+      <locations id="30"/>
+    </GroupLocation>
+  </groupLocations>
+</Manager>

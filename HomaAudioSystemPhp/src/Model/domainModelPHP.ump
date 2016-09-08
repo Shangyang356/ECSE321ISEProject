@@ -1,0 +1,30 @@
+namespace ca.mcgill.ecse321.homeAudioSystem.model;
+
+
+class Genre
+{
+	const Pop = 1;
+	const EDM = 2;
+	const Hiphop = 3;
+	const Country = 4;
+	const Rock = 5;
+	const Indie = 6;
+	const Rnb = 7;
+	const Jazz = 8;
+	const Soul = 9;
+	const Classical = 10;
+	const Kpop = 11;
+	const Metal = 12; 
+	const Punk = 13;
+	const Reggae = 14;
+	const Blues = 15;
+	const Funk = 16;	
+	
+}
+
+class Album
+{
+	int Genre;
+}
+
+

@@ -1,0 +1,88 @@
+namespace ca.mcgill.ecse321.homeAudioSystem.model;
+
+use domainModelJava.ump;
+
+class Manager
+{
+    singleton;
+  
+    1 ->* Album;
+    1 ->* Artist;
+    1 ->* Playlist;
+    1 ->* Location;
+    1 ->* Song;
+    1 ->* GroupLocation;
+}
+
+class ListOfSong 
+{
+  abstract;
+  name;
+  * -> * Song;
+}
+
+class Album
+{
+    isA ListOfSong;
+    Date releaseDate;
+    * -> * Artist;
+}
+
+class Artist
+{
+    isA ListOfSong;
+}
+
+class Playlist
+{
+    isA ListOfSong;
+}
+
+class Song
+{
+    name;
+    Time duration;
+}
+
+class Location
+{
+	name;
+	Integer volume;
+    boolean isMuted = false;
+	* -> * Song;
+}
+
+class GroupLocation
+{
+	name;
+	1 -> * Location;
+}
+
+
+//$?[End_of_model]$?
+
+class ListOfSong
+{
+  position 260 290 109 39;
+  position.association ListOfSong__Song 106,0 8,28;
+}
+
+class Manager
+{
+  position.association Location__Manager 110,11 0,10;
+}
+
+class Location
+{
+  position.association ListOfSong__Location 14,28 103,0;
+}
+
+class Artist
+{
+  position 161 220 109 28;
+}
+
+class Album
+{
+  position 50 215 109 28;
+}

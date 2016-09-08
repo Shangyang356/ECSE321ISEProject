@@ -1,0 +1,97 @@
+namespace ca.mcgill.ecse321.homeAudioSystem.model;
+
+class Album
+{
+	public enum Genre {Pop, EDM, Hiphop, Country, Rock, Indie,
+	 RnB, Jazz, Soul, Classical, Kpop, Metal, Punk, Reggae, Blues, Funk};
+	
+	private Genre genre;
+	
+	public void setGenre(Genre aGenre)
+	{
+		genre = aGenre;
+	}
+	
+	public Genre getGenre()
+	{
+		return genre;
+	}
+	
+	public String toString()
+	{
+		return this.getName();
+	}
+}
+
+class Artist
+{
+	public String toString()
+	{
+		return this.getName();
+	}
+}
+
+class Playlist
+{
+	public String toString()
+	{
+		return this.getName();
+	}
+}
+
+class Song
+{
+	public String toString()
+	{
+		return this.getName();
+	}
+}
+
+class Location
+{
+	public String toString()
+	{
+		return this.getName();
+	}
+}
+
+class GroupLocation
+{
+	public String toString()
+	{
+		return this.getName();
+	}
+}
+
+class Manager
+{
+	public void sortSongs(Comparator<Song> comparator)
+	{
+		Collections.sort(songs, comparator);
+	}
+  
+	public void sortArtists(Comparator<Artist> comparator)
+	{
+		Collections.sort(artists, comparator);
+	}
+  
+	public void sortAlbums(Comparator<Album> comparator)
+	{
+		Collections.sort(albums, comparator);
+	}
+	
+	public void sortPlaylists(Comparator<Playlist> comparator)
+	{
+		Collections.sort(playlists, comparator);
+	}
+	
+	public void sortLocations(Comparator<Location> comparator)
+	{
+		Collections.sort(locations, comparator);
+	}
+	
+	public void sortGroupLocations(Comparator<GroupLocation> comparator)
+	{
+		Collections.sort(groupLocations, comparator);
+	}
+}

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="michael.user.homeaudiosystemandroid.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TabHost
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/tabHost">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></TabWidget>
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tabLibrary"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Album Library :"
+                            android:id="@+id/textView" />
+
+                        <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ListOfAlbums"
+                            android:spinnerMode="dropdown"
+                           />
+
+                        <Button
+                            android:layout_width="211dp"
+                            android:layout_height="wrap_content"
+                            android:text="Delete Album"
+                            android:id="@+id/deleteAlbumButton" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Song Library : "
+                            android:id="@+id/textView2" />
+
+                        <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_height="36dp"
+                            android:id="@+id/ListOfSongs"
+                            android:spinnerMode="dropdown" />
+
+                        <Button
+                            android:layout_width="165dp"
+                            android:layout_height="wrap_content"
+                            android:text="Delete Song"
+                            android:id="@+id/deleteSongButton" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add Song to Playlist"
+                            android:id="@+id/songToPlaylistButton" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Play Song"
+                            android:id="@+id/playSongButton" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Playlist Library :"
+                            android:id="@+id/textView3" />
+
+                        <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ListOfPlaylists"
+                            android:spinnerMode="dropdown" />
+
+                        <Button
+                            android:layout_width="168dp"
+                            android:layout_height="wrap_content"
+                            android:text="Delete Playlist"
+                            android:id="@+id/deletePlaylistButton" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Play Playlist"
+                            android:id="@+id/playPlaylistButton" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Artist Library :"
+                            android:id="@+id/textView4" />
+
+                        <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_height="37dp"
+                            android:id="@+id/ListOfArtists"
+                            android:spinnerMode="dropdown" />
+
+                        <Button
+                            android:layout_width="161dp"
+                            android:layout_height="wrap_content"
+                            android:text="Delete Artist"
+                            android:id="@+id/deleteArtistButton" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add Artist to Album"
+                            android:id="@+id/artistToAlbumButton" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tabMusic"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:weightSum="1"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/EditTextAddSong"
+                            android:hint="@string/addSongList" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="time"
+                            android:ems="10"
+                            android:id="@+id/EditTextSongDuration"
+                            android:hint="@string/addSongDuration"/>
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ButtonAddSong"
+                            android:hint="@string/addSongButton"
+                            android:onClick="addSong" />
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/EditTextAddArtist"
+                            android:hint="@string/addArtist" />
+
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ButtonAddArtist"
+                            android:hint="@string/addArtistButton"
+                            android:onClick="addSong"/>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/EditTextAddAlbum"
+                            android:hint="@string/addAlbum" />
+
+
+                        <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_height="41dp"
+                            android:id="@+id/AlbumGenreSpinner"
+                            android:spinnerMode="dropdown"
+                            />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Pick Date"
+                            android:id="@+id/buttonPickDate" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ButtonAddAlbum"
+                            android:hint="@string/addAlbumButton"
+                            android:onClick="addSong"/>
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/EditTextAddPlaylist"
+                            android:hint="@string/addPlaylist" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ButtonAddPlaylist"
+                            android:hint="@string/addPlaylistButton"
+                            android:onClick="addSong" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tabLocations"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Add New Location"
+                            android:id="@+id/textView5" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/addLocationEditText"
+                            android:hint="@string/addNewLocation"/>
+
+                        <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_height="56dp"
+                            android:id="@+id/spinnerLocations"
+                            android:spinnerMode="dropdown" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add Location"
+                            android:id="@+id/addLocationButton" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Delete Location"
+                            android:id="@+id/deleteLocationButton" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add location to group"
+                            android:id="@+id/locationToGroup" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Add New Location Group"
+                            android:id="@+id/textView6" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/addGroupLocationEditText"
+                            android:hint="@string/addNewLocationGroup"/>
+
+                        <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_height="53dp"
+                            android:id="@+id/spinnerGroupLocation"
+                            android:spinnerMode="dropdown"
+                            android:layout_margin="10px"/>
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add Group"
+                            android:id="@+id/addGroupButton" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Delete Group"
+                            android:id="@+id/deleteGroupButton" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Set Volume:"
+                            android:id="@+id/textView7" />
+
+                        <SeekBar
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/violumeBar"
+                            android:indeterminate="false" />
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mute"
+                            android:id="@+id/Mute"
+                            android:checked="false" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Update Location Volume"
+                            android:id="@+id/updateLocationButton" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Currently Playing At"
+                            android:id="@+id/textView8" />
+
+                        <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_height="51dp"
+                            android:id="@+id/playingNowSpinner"
+                            android:spinnerMode="dropdown" />
+                    </LinearLayout>
+
+
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+    </LinearLayout>
+
+
+</RelativeLayout>

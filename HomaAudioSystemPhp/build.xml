@@ -1,0 +1,28 @@
+
+<project basedir="." name = "HomaAudioSystemPhp">
+	
+	<target name="umple">
+	        <java classname="cruise.umple.UmpleConsoleMain" failonerror="true" fork="yes">
+	        	<arg value="src/Model/domainModel.ump"/>
+	        	<arg value="-gPhp"/>
+	            <classpath>
+	              <pathelement location="lib/umple.jar"/>
+	            </classpath>
+	        </java>
+	</target>
+	
+	<target name="copy">
+		<mkdir dir="C:\xampp\htdocs\HomeAudioSystemPhp"/>
+		<copy todir = "C:\xampp\htdocs\HomeAudioSystemPhp">
+			<fileset dir="../HomeAudioSystemPhp"/>
+		</copy>
+		
+	</target>
+	
+
+    <target name="cleaneverything">
+        <delete dir="C:\xampp\htdocs\HomeAudioSystemPhp"/>
+    </target>
+	
+
+</project>

@@ -1,0 +1,420 @@
+<Manager id="1">
+  <albums id="2">
+    <Album id="3">
+      <name>Absolution</name>
+      <songs id="4">
+        <Song id="5">
+          <name>Blackout</name>
+          <duration id="6">00:04:22</duration>
+        </Song>
+        <Song id="7">
+          <name>Butterflies and Hurricanes</name>
+          <duration id="8">00:05:01</duration>
+        </Song>
+        <Song id="9">
+          <name>Sing for Absolution</name>
+          <duration id="10">00:04:54</duration>
+        </Song>
+        <Song id="11">
+          <name>Stockholm Syndrome</name>
+          <duration id="12">00:04:54</duration>
+        </Song>
+        <Song id="13">
+          <name>Time Is Running Out</name>
+          <duration id="14">00:03:56</duration>
+        </Song>
+      </songs>
+      <releaseDate id="15">2003-09-15</releaseDate>
+      <artists id="16">
+        <Artist id="17">
+          <name>Muse</name>
+          <songs id="18">
+            <Song reference="5"/>
+            <Song reference="7"/>
+            <Song reference="9"/>
+            <Song reference="11"/>
+            <Song reference="13"/>
+          </songs>
+        </Artist>
+      </artists>
+      <genre>Rock</genre>
+    </Album>
+    <Album id="19">
+      <name>album</name>
+      <songs id="20">
+        <Song id="21">
+          <name>All in one</name>
+          <duration id="22">00:05:20</duration>
+        </Song>
+      </songs>
+      <releaseDate id="23">2016-04-06</releaseDate>
+      <artists id="24">
+        <Artist id="25">
+          <name>Sam Tsui</name>
+          <songs id="26">
+            <Song reference="21"/>
+          </songs>
+        </Artist>
+      </artists>
+      <genre>EDM</genre>
+    </Album>
+    <Album id="27">
+      <name>Fearless</name>
+      <songs id="28">
+        <Song id="29">
+          <name>Fearless</name>
+          <duration id="30">00:04:01</duration>
+        </Song>
+        <Song id="31">
+          <name>Fifteen</name>
+          <duration id="32">00:04:54</duration>
+        </Song>
+        <Song id="33">
+          <name>Love Story</name>
+          <duration id="34">00:03:55</duration>
+        </Song>
+        <Song id="35">
+          <name>White Horse</name>
+          <duration id="36">00:03:54</duration>
+        </Song>
+        <Song id="37">
+          <name>You Belong with Me</name>
+          <duration id="38">00:03:51</duration>
+        </Song>
+      </songs>
+      <releaseDate id="39">2008-11-11</releaseDate>
+      <artists id="40">
+        <Artist id="41">
+          <name>Taylor Swift</name>
+          <songs id="42">
+            <Song reference="29"/>
+            <Song reference="31"/>
+            <Song reference="33"/>
+            <Song reference="35"/>
+            <Song reference="37"/>
+          </songs>
+        </Artist>
+      </artists>
+      <genre>Country</genre>
+    </Album>
+    <Album id="43">
+      <name>Schubert&apos;s Final Works</name>
+      <songs id="44">
+        <Song id="45">
+          <name>Unfinished Symphony No.8, 1st Movement</name>
+          <duration id="46">00:10:16</duration>
+        </Song>
+        <Song id="47">
+          <name>Unfinished Symphony No.8, 2nd Movement</name>
+          <duration id="48">00:14:51</duration>
+        </Song>
+      </songs>
+      <releaseDate id="49">1996-04-15</releaseDate>
+      <artists id="50">
+        <Artist id="51">
+          <name>London Symphony Orchestra</name>
+          <songs id="52">
+            <Song reference="45"/>
+            <Song reference="47"/>
+          </songs>
+        </Artist>
+        <Artist id="53">
+          <name>Schubert</name>
+          <songs id="54">
+            <Song reference="45"/>
+            <Song reference="47"/>
+          </songs>
+        </Artist>
+      </artists>
+      <genre>Classical</genre>
+    </Album>
+    <Album id="55">
+      <name>Whenever You Need Somebody</name>
+      <songs id="56">
+        <Song id="57">
+          <name>Never Gonna Give You Up</name>
+          <duration id="58">00:03:32</duration>
+        </Song>
+        <Song id="59">
+          <name>Together Forever</name>
+          <duration id="60">00:03:24</duration>
+        </Song>
+        <Song id="61">
+          <name>Whenever You Need Somebody</name>
+          <duration id="62">00:03:52</duration>
+        </Song>
+      </songs>
+      <releaseDate id="63">1987-11-16</releaseDate>
+      <artists id="64">
+        <Artist id="65">
+          <name>Rick Astley</name>
+          <songs id="66">
+            <Song reference="57"/>
+            <Song reference="59"/>
+            <Song reference="61"/>
+          </songs>
+        </Artist>
+      </artists>
+      <genre>Pop</genre>
+    </Album>
+    <Album id="67">
+      <name>X&amp;Y</name>
+      <songs id="68">
+        <Song id="69">
+          <name>Fix You</name>
+          <duration id="70">00:04:54</duration>
+        </Song>
+        <Song id="71">
+          <name>Speed of Sound</name>
+          <duration id="72">00:04:48</duration>
+        </Song>
+        <Song id="73">
+          <name>Talk</name>
+          <duration id="74">00:05:11</duration>
+        </Song>
+        <Song id="75">
+          <name>The Hardest Part</name>
+          <duration id="76">00:04:25</duration>
+        </Song>
+        <Song id="77">
+          <name>What If</name>
+          <duration id="78">00:04:57</duration>
+        </Song>
+      </songs>
+      <releaseDate id="79">2005-06-05</releaseDate>
+      <artists id="80">
+        <Artist id="81">
+          <name>Coldplay</name>
+          <songs id="82">
+            <Song reference="69"/>
+            <Song reference="71"/>
+            <Song reference="73"/>
+            <Song reference="75"/>
+            <Song reference="77"/>
+          </songs>
+        </Artist>
+      </artists>
+      <genre>Rock</genre>
+    </Album>
+  </albums>
+  <artists id="83">
+    <Artist id="84">
+      <name>Albert King</name>
+      <songs id="85">
+        <Song id="86">
+          <name>Born Under a Bad Sign</name>
+          <duration id="87">00:02:47</duration>
+        </Song>
+      </songs>
+    </Artist>
+    <Artist reference="81"/>
+    <Artist reference="51"/>
+    <Artist reference="17"/>
+    <Artist id="88">
+      <name>Psy</name>
+      <songs id="89">
+        <Song id="90">
+          <name>Gangam Style</name>
+          <duration id="91">00:03:39</duration>
+        </Song>
+      </songs>
+    </Artist>
+    <Artist reference="65"/>
+    <Artist reference="25"/>
+    <Artist reference="53"/>
+    <Artist reference="41"/>
+  </artists>
+  <playlists id="92">
+    <Playlist id="93">
+      <name>Best Song Ever</name>
+      <songs id="94">
+        <Song reference="21"/>
+      </songs>
+    </Playlist>
+    <Playlist id="95">
+      <name>Objectively Good Taste</name>
+      <songs id="96">
+        <Song reference="86"/>
+        <Song reference="57"/>
+        <Song reference="45"/>
+        <Song reference="47"/>
+      </songs>
+    </Playlist>
+    <Playlist id="97">
+      <name>Worst Music Ever</name>
+      <songs id="98">
+        <Song reference="31"/>
+        <Song reference="90"/>
+        <Song reference="33"/>
+        <Song reference="73"/>
+      </songs>
+    </Playlist>
+  </playlists>
+  <locations id="99">
+    <Location id="100">
+      <name>Bedroom 1</name>
+      <volume>100</volume>
+      <isMuted>false</isMuted>
+      <songs id="101">
+        <Song reference="57"/>
+        <Song reference="59"/>
+        <Song reference="61"/>
+      </songs>
+    </Location>
+    <Location id="102">
+      <name>Bedroom 2</name>
+      <volume>66</volume>
+      <isMuted>true</isMuted>
+      <songs id="103">
+        <Song reference="57"/>
+        <Song reference="59"/>
+        <Song reference="61"/>
+      </songs>
+    </Location>
+    <Location id="104">
+      <name>classroom</name>
+      <volume>100</volume>
+      <isMuted>false</isMuted>
+      <songs id="105"/>
+    </Location>
+    <Location id="106">
+      <name>Deck</name>
+      <volume>100</volume>
+      <isMuted>false</isMuted>
+      <songs id="107">
+        <Song reference="5"/>
+        <Song reference="7"/>
+        <Song reference="9"/>
+        <Song reference="13"/>
+        <Song reference="90"/>
+      </songs>
+    </Location>
+    <Location id="108">
+      <name>Dinning Room</name>
+      <volume>100</volume>
+      <isMuted>false</isMuted>
+      <songs id="109"/>
+    </Location>
+    <Location id="110">
+      <name>Garage</name>
+      <volume>81</volume>
+      <isMuted>false</isMuted>
+      <songs id="111"/>
+    </Location>
+    <Location id="112">
+      <name>Guest Room</name>
+      <volume>20</volume>
+      <isMuted>false</isMuted>
+      <songs id="113">
+        <Song reference="57"/>
+        <Song reference="59"/>
+        <Song reference="61"/>
+        <Song reference="86"/>
+        <Song reference="45"/>
+        <Song reference="47"/>
+      </songs>
+    </Location>
+    <Location id="114">
+      <name>Hallway</name>
+      <volume>100</volume>
+      <isMuted>false</isMuted>
+      <songs id="115">
+        <Song reference="33"/>
+      </songs>
+    </Location>
+    <Location id="116">
+      <name>Kitchen</name>
+      <volume>54</volume>
+      <isMuted>false</isMuted>
+      <songs id="117"/>
+    </Location>
+    <Location id="118">
+      <name>Living Room</name>
+      <volume>100</volume>
+      <isMuted>false</isMuted>
+      <songs id="119"/>
+    </Location>
+    <Location id="120">
+      <name>Master Bedroom</name>
+      <volume>100</volume>
+      <isMuted>false</isMuted>
+      <songs id="121">
+        <Song reference="57"/>
+        <Song reference="59"/>
+        <Song reference="61"/>
+      </songs>
+    </Location>
+    <Location id="122">
+      <name>Office</name>
+      <volume>100</volume>
+      <isMuted>true</isMuted>
+      <songs id="123"/>
+    </Location>
+  </locations>
+  <songs id="124">
+    <Song reference="21"/>
+    <Song reference="5"/>
+    <Song reference="86"/>
+    <Song reference="7"/>
+    <Song reference="29"/>
+    <Song reference="31"/>
+    <Song reference="69"/>
+    <Song reference="90"/>
+    <Song reference="33"/>
+    <Song reference="57"/>
+    <Song reference="9"/>
+    <Song reference="71"/>
+    <Song reference="11"/>
+    <Song reference="73"/>
+    <Song reference="75"/>
+    <Song reference="13"/>
+    <Song reference="59"/>
+    <Song reference="45"/>
+    <Song reference="47"/>
+    <Song reference="77"/>
+    <Song reference="61"/>
+    <Song reference="35"/>
+    <Song reference="37"/>
+  </songs>
+  <groupLocations id="125">
+    <GroupLocation id="126">
+      <name>All</name>
+      <locations id="127">
+        <Location reference="100"/>
+        <Location reference="102"/>
+        <Location reference="106"/>
+        <Location reference="108"/>
+        <Location reference="110"/>
+        <Location reference="112"/>
+        <Location reference="114"/>
+        <Location reference="116"/>
+        <Location reference="118"/>
+        <Location reference="120"/>
+        <Location reference="122"/>
+      </locations>
+    </GroupLocation>
+    <GroupLocation id="128">
+      <name>Bedrooms</name>
+      <locations id="129">
+        <Location reference="100"/>
+        <Location reference="102"/>
+        <Location reference="112"/>
+        <Location reference="120"/>
+      </locations>
+    </GroupLocation>
+    <GroupLocation id="130">
+      <name>Dinner</name>
+      <locations id="131">
+        <Location reference="108"/>
+        <Location reference="116"/>
+      </locations>
+    </GroupLocation>
+    <GroupLocation id="132">
+      <name>Outdoors</name>
+      <locations id="133">
+        <Location reference="106"/>
+        <Location reference="110"/>
+      </locations>
+    </GroupLocation>
+  </groupLocations>
+</Manager>

@@ -1,0 +1,96 @@
+<Manager id="1">
+  <albums id="2">
+    <Album id="3">
+      <name>aaa</name>
+      <songs id="4">
+        <Song id="5">
+          <name>A Cool Song</name>
+          <duration id="6">00:03:00</duration>
+        </Song>
+      </songs>
+      <releaseDate id="7">2016-04-11</releaseDate>
+      <artists id="8">
+        <Artist id="9">
+          <name>The Beatles</name>
+          <songs id="10">
+            <Song reference="5"/>
+          </songs>
+        </Artist>
+      </artists>
+      <genre>Rock</genre>
+    </Album>
+    <Album id="11">
+      <name>Bbb</name>
+      <songs id="12">
+        <Song reference="5"/>
+      </songs>
+      <releaseDate reference="7"/>
+      <artists id="13">
+        <Artist reference="9"/>
+      </artists>
+      <genre>Rock</genre>
+    </Album>
+    <Album id="14">
+      <name>cab</name>
+      <songs id="15">
+        <Song reference="5"/>
+      </songs>
+      <releaseDate reference="7"/>
+      <artists id="16">
+        <Artist reference="9"/>
+      </artists>
+      <genre>Rock</genre>
+    </Album>
+    <Album id="17">
+      <name>cba</name>
+      <songs id="18">
+        <Song reference="5"/>
+      </songs>
+      <releaseDate reference="7"/>
+      <artists id="19">
+        <Artist reference="9"/>
+      </artists>
+      <genre>Rock</genre>
+    </Album>
+    <Album id="20">
+      <name>Cbb</name>
+      <songs id="21">
+        <Song reference="5"/>
+      </songs>
+      <releaseDate reference="7"/>
+      <artists id="22">
+        <Artist reference="9"/>
+      </artists>
+      <genre>Rock</genre>
+    </Album>
+    <Album id="23">
+      <name>ccc</name>
+      <songs id="24">
+        <Song reference="5"/>
+      </songs>
+      <releaseDate reference="7"/>
+      <artists id="25">
+        <Artist reference="9"/>
+      </artists>
+      <genre>Rock</genre>
+    </Album>
+    <Album id="26">
+      <name>cDe</name>
+      <songs id="27">
+        <Song reference="5"/>
+      </songs>
+      <releaseDate reference="7"/>
+      <artists id="28">
+        <Artist reference="9"/>
+      </artists>
+      <genre>Rock</genre>
+    </Album>
+  </albums>
+  <artists id="29">
+    <Artist reference="9"/>
+  </artists>
+  <playlists id="30"/>
+  <locations id="31"/>
+  <songs id="32"/>
+  <groupLocations id="33"/>
+</Manager>

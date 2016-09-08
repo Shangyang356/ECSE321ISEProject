@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+phpunit_config_file=
+preload_script=/HomaAudioSystemPhp/test/include.php
+test_file_pattern=
+test_folders=/HomaAudioSystemPhp/test
+testing_framework=PHPUnit

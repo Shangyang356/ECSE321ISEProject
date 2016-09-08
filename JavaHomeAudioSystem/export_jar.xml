@@ -1,0 +1,11 @@
+<?eclipse.ant.import?>
+<project basedir="." name="JavaHomeAudioSystem">
+	<target name = "exportJar">
+		<mkdir dir="../HomeAudioSystemAndroid/HomeAudioSystemAndroid/app/libs/"/>
+		<jar destfile = "../HomeAudioSystemAndroid/HomeAudioSystemAndroid/app/libs/HAS.jar" excludes = "**/test/*">	
+			<manifest>
+				<attribute name="HomeAudioSystem-Class" value="main"/>
+			</manifest>		
+		</jar>
+	</target>
+</project>
